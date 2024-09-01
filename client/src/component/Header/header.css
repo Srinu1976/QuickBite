@@ -1,0 +1,106 @@
+.navbar-behind{
+    height: 80px;
+}
+
+.logo img{
+    width:4rem;
+}
+
+.profile .dropdown-menu {
+    min-width:120px;
+}
+
+.dropdown-toggle::after {
+    margin-left: 0;
+  }
+
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: auto;
+    margin-top: var(--bs-dropdown-spacer);
+  }
+
+.profile .dropdown-menu .dropdown-item{
+    margin: 2px 0;
+}
+
+.profile .dropdown-menu .dropdown-item:focus{
+    background-color: inherit;
+    color: #fff;
+}
+
+.profile .dropdown-menu .dropdown-item.active {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+}
+
+.profileimg{
+    width: 45px;
+    height: 45px;
+    object-fit: cover !important;
+}
+
+.profile-name{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.cart i{
+    font-size: 1.3rem;
+}
+
+
+.cart a.active{
+    color: var(--primary-color) !important;
+    border: none;
+}
+
+.navbar-toggler{
+    margin-top:-10px;
+}
+
+.navbar{
+    height:80px;    
+    transition: 0.5s;
+}
+
+
+.nav-item a{
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.nav-item a:hover{
+    color:inherit;
+}
+
+.nav-item a.active{
+    color: var(--primary-color) !important;
+}
+
+
+ .btn-signin{
+    background-color: var(--primary-color) !important;
+    border: none !important;
+    font-weight: 500 !important;
+    font-size: 1.1rem;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+.btn-signin:hover,
+.btn-signin:focus{
+    color: inherit;
+    background-color: #6fff00 !important;
+}
+
+
+.offcanvas.offcanvas-end {
+    width: 250px;
+}
+
+  

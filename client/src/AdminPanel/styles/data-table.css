@@ -1,0 +1,193 @@
+.data-box{
+    min-height: 100vh;
+    
+}
+
+.table-box{
+    overflow-x: auto;
+}
+
+body{
+    min-height: 100vh;
+}
+
+table{
+    border-radius: 20px !important;
+    
+}
+
+tr{
+    border-bottom: 1px solid;
+    
+}
+
+.action-icon{
+    font-size: 20px;
+}
+
+tr th{
+    
+    color: var(--heading-color) !important;
+    background-color: var(--primary-color) !important
+
+}
+
+th, td{
+    white-space: nowrap;
+    overflow: hidden;          
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    font-size: 1rem;
+}
+
+.filter-btn{
+    font-size: 17px;
+}
+
+.filter-btn.active{
+    background-color: var(--primary-color);
+}
+
+.action-btn{
+    background-color: var(--primary-color);
+}
+
+.action-btn:hover{
+    background-color: #6fff00;
+    
+}
+
+.action-btn:hover i{
+    color:#fff !important
+}
+
+.action-btn:focus{
+    background-color: var(--primary-color) !important;
+    color:#fff !important
+}
+.action-btn:focus i{
+    background-color: var(--primary-color) !important;
+    color:#fff !important
+}
+
+.add-tour-btn{
+    background-color: var(--primary-color);
+}
+
+.add-tour-btn:focus,
+.add-tour-btn:hover{
+    background-color: #6fff00 !important;
+    color: #fff;
+}
+
+
+.menu-item-img{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+
+@media screen and (max-width: 805px) {
+    .profileimg{
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .form-select{
+        font-size: 70% !important;
+        height: 15px;
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .table-box th, .table-box td {
+        font-size: 70%;
+    }
+    .action-btn i{
+        font-size: 70%;
+    }
+
+    .action-btn{
+        padding: 0 7px;
+    }
+    .menu-item-img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .action-btn i{
+        font-size: 70%;
+    }
+
+    .action-btn{
+        padding: 0 7px;
+    }
+    .dashboard-text{
+        font-size: 80%;
+    }
+    .dashboard-heading{
+        font-size: 25px;
+    }
+    .filter-btn{
+        font-size: 10px !important;
+        padding: 0 3px;
+        height: 25px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .table-box th, .table-box td {
+        font-size: 70%;
+    }
+    .action-btn i{
+        font-size: 70%;
+    }
+
+    .action-btn{
+        padding: 0 7px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .table-box th, .table-box td {
+        font-size: 50%;
+    }
+    .action-btn i{
+        font-size: 70%;
+        color: #6fff00;
+    }
+
+    .action-btn:hover i{
+        font-size: 70%;
+        color: #6fff00 !important;
+    }
+
+    .action-btn{
+        padding: 0 0;
+        margin: 0;
+        background-color: transparent;
+    }
+
+    .action-btn:hover,
+    .action-btn:active
+    {
+        padding: 0 0;
+        margin: 0;
+        background-color: transparent !important;
+        border-color: transparent;
+        color: #6fff00 !important;
+    }
+
+    .profileimg{
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .add-tour-btn{
+        font-size: 10px !important;
+        
+        
+    }
+}

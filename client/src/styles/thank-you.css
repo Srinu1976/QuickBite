@@ -1,0 +1,40 @@
+.thank-you span i{
+    font-size: 4rem;
+    color: green;
+    
+}
+
+.thank-you h1{
+    font-size: 3.6rem;
+    color: var(--heading-color);
+}
+
+.back-btn{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+
+.back-btn.active{
+    background-color: #6fff00;
+}
+
+.back-btn:hover,
+.back-btn:focus{
+    background-color: #6fff00 !important;
+    color: var(--heading-color);
+}
+
+@media (max-width: 576px) {
+    .back-btn
+    {
+      width: 50% !important;
+    }
+  }
+
+@media (max-width: 253px) {
+    .back-btn
+    {
+      width: 70% !important;
+    }
+  }

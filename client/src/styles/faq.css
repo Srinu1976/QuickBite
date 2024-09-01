@@ -1,0 +1,40 @@
+
+@media  screen and (max-width: 768px) {
+    .accordion-button{
+        font-size: 1rem;
+    }
+    
+    .accordion-body{
+        font-size: 1rem;
+    }
+} 
+
+@media  screen and (max-width: 555px) {
+    .accordion-button{
+        font-size: 0.9rem;
+    }
+    
+    .accordion-body{
+        font-size: 0.9rem;
+    }
+} 
+
+@media  screen and (max-width: 450px) {
+    .accordion-button{
+        font-size: 0.9rem;
+    }
+    
+    .accordion-body{
+        font-size: 0.8rem;
+    }
+} 
+
+@media  screen and (max-width: 350px) {
+    .accordion-button{
+        font-size: 0.8rem;
+    }
+    
+    .accordion-body{
+        font-size: 0.7rem;
+    }
+} 

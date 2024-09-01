@@ -1,0 +1,142 @@
+.collapse-btn {
+  background-color: var(--primary-color);
+  z-index: 99;
+}
+
+.collapse-btn:focus,
+.collapse-btn:hover {
+  background-color: var(--primary-color) !important;
+  z-index: 99;
+}
+
+/* sidebar.css */
+
+/* Add this CSS to make the sidebar scrollable vertically */
+.sidebar-wrapper {
+  height: calc(100vh - 60px); /* Adjust the height as needed */
+  overflow-y: auto;
+  margin-right: 20px;
+}
+
+/* Hide scrollbar for WebKit browsers */
+.sidebar-wrapper::-webkit-scrollbar {
+  width: 0; /* Set width to 0 to hide scrollbar */
+}
+
+.wrapper {
+  transition: all 0.4s ease-in-out;
+}
+
+.collapsed-sidebar {
+  width: 67px; /* Set the desired collapsed width */
+}
+
+.sidebar-behind-space {
+  width: 275px;
+}
+
+.sidebar-collapse-behind-space {
+  min-width: 65px !important;
+}
+
+.sidebar {
+  min-height: 100vh;
+  position: fixed;
+}
+
+.navigation-section .logo {
+  width: 200px;
+}
+.nav-pills .nav-link.active {
+  background-color: var(--primary-color) !important;
+  color: #fff;
+}
+
+.admin-nav-items .nav-link {
+  color: #fff !important;
+}
+
+.admin-nav-items .nav-link:hover {
+  background-color: inherit !important;
+  color: var(--primary-color) !important;
+}
+
+.admin-nav-items .nav-link.active {
+  background-color: var(--primary-color) !important;
+  color: #fff !important;
+  font-size: 20px;
+}
+
+.nav-link.active i {
+  font-size: 30px !important;
+}
+
+.nav-link i {
+  font-size: 25px;
+}
+
+.collapse-btn i {
+  font-size: 20px;
+  padding: 0 3px;
+}
+
+.dropdown-item.active,
+.dropdown-item:focus {
+  background-color: var(--primary-color) !important;
+}
+
+@media screen and (max-width: 1180px) {
+  .sidebar-behind-space {
+    width: 290px;
+  }
+}
+
+@media screen and (max-width: 1009px) {
+  .sidebar-behind-space {
+    min-width: 22.3%;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sidebar-link,
+  .sidebar-link i {
+    font-size: 20px !important;
+  }
+
+  .admin-nav-items {
+    font-size: 10px !important;
+  }
+
+  .admin-nav-items .nav-link {
+    padding: 0 7px;
+    width: 80%;
+    margin-bottom: 10px;
+  }
+
+  .admin-nav-items .nav-link.active {
+    padding: 0 20px 0 5px;
+    width: 80%;
+  }
+
+  .nav-link.active i {
+    font-size: 25px !important;
+  }
+
+  .collapsed-sidebar {
+    width: 40px; /* Set the desired collapsed width */
+  }
+
+  .collapse-btn {
+    padding: 7px;
+    padding: 2px 0px 2px 0px;
+  }
+
+  .collapse-btn i {
+    font-size: 20px;
+  }
+
+  .sidebar-collapse-behind-space {
+    min-width: 40px !important;
+  }
+}

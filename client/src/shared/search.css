@@ -1,0 +1,23 @@
+.search{
+    width: 100%;
+    height: max-content;
+}
+
+.search-input{
+    border-color: var(--primary-color) !important; 
+    height: max-content;
+}
+
+.search-btn{
+    background-color: var(--primary-color);
+    border-color: #6fff00;
+    color: var(--tertiary-color);
+}
+
+.search-btn:hover,
+.search-btn:focus{
+    background-color: #6fff00 !important;
+    border-color: #6fff00 !important;
+    color: var(--tertiary-color) !important;
+}
+

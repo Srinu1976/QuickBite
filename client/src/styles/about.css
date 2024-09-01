@@ -1,0 +1,106 @@
+.aboutus-text h1{
+    font-size: 120px;
+    font-weight: 600;
+}
+
+.aboutus-img {
+    max-height: 500px;
+}
+
+.aboutus-img .restaurent-img {
+    height: 100%;
+    width: 89%;
+    object-fit: cover;
+}
+
+.burger-img{
+    margin-top: -15%;
+    max-width: 40%;
+}
+
+.read-more-btn{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    padding: 10px 15px
+}
+
+.read-more-btn:hover,
+.read-more-btn:focus,
+.read-more-btn.active{
+    background-color: #6fff00;
+}
+
+@media screen and (max-width:768px) {
+    .aboutus-text h1{
+        font-size: 100px;
+        font-weight: 600;
+    }
+
+    .aboutus-text p{
+        font-size: 0.9rem;
+    }
+    .read-more-btn{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:473px) {
+    .aboutus-text h1{
+        font-size: 80px;
+        font-weight: 600;
+    }
+
+    .aboutus-text p{
+        font-size: 0.8rem;
+    }
+    .read-more-btn{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width:383px) {
+    .aboutus-text h1{
+        font-size: 70px;
+        font-weight: 600;
+    }
+
+    .aboutus-text p{
+        font-size: 0.7rem;
+    }
+
+    .read-more-btn{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:383px) {
+    .aboutus-text h1{
+        font-size: 60px;
+        font-weight: 600;
+    }
+
+    .aboutus-text p{
+        font-size: 0.7rem;
+    }
+
+    .read-more-btn{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width:294px) {
+    .aboutus-text h1{
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    .aboutus-text p{
+        font-size: 0.6rem;
+    }
+
+    .read-more-btn{
+        font-size: 0.8rem;
+    }
+}

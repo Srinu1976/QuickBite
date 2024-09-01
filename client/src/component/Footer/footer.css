@@ -1,0 +1,149 @@
+.newsletter {
+  margin-top: 100px;
+  margin-bottom: -50px;
+  max-width: 60%;
+  height: 20vh;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 7px 3px;
+}
+
+.newsletter-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 0 0 0 0.5rem;
+  margin-bottom: 2rem;
+
+  border-radius: 5px;
+  min-width: 300px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  border-bottom-right-radius: 10px;
+  border: 2px solid var(--primary-color);
+}
+
+.newsletter-input input {
+  height: 40px;
+  border: none;
+  width: 100% !important;
+  font-size: 1rem;
+  color: black;
+}
+
+.newsletter-input input:focus {
+  outline: none;
+}
+
+.newsletter-btn {
+  background: var(--primary-color) !important;
+  color: #fff !important;
+  font-size: 1.1rem !important;
+  width: 50%;
+  height: 100%;
+}
+
+.newsletter-btn:hover {
+  background: #6fff00 !important;
+  color: #000000 !important;
+}
+
+.social-links span a {
+  text-decoration: none;
+  background-color: var(--primary-color);
+  padding: 1px 3px;
+  color: var(--tertiary-color);
+  font-size: 1.2rem;
+  border-radius: 3px;
+}
+
+.footer-section {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.52),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url("../../assets/images/footerimg.png");
+  background-size: cover;
+  color: white;
+  z-index: -9;
+}
+
+.footer-heading {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.foot-texts {
+  z-index: 9;
+  color: var(--tertiary-color);
+}
+
+.explore-text p:hover {
+  color: var(--primary-color);
+}
+
+.footer-logo img {
+  width: 50%;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+}
+
+.footer-logo p {
+  color: var(--tertiary-color);
+  font-size: 0.9rem;
+}
+
+.footer-link-title {
+  color: var(--tertiary-color) !important;
+  margin-bottom: 1rem;
+}
+
+.footer-quick-links li a {
+  text-decoration: none !important;
+  color: var(--tertiary-color);
+  font-size: 1.1rem;
+}
+
+.contact-info p i,
+.text-reset i {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1117px) {
+  .newsletter {
+    max-width: 70% !important;
+    height: 20vh;
+  }
+}
+@media screen and (max-width: 1019px) {
+  .news-letter-text h5 {
+    font-size: 1.1rem !important;
+  }
+
+  .newsletter-input input {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .newsletter-btn {
+    font-size: 1.2rem !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .newsletter-btn {
+    font-size: 1.1rem !important;
+  }
+}
+
+@media screen and (max-width: 413px) {
+  .newsletter {
+    max-width: 80% !important;
+  }
+  .newsletter-btn {
+    font-size: 0.9rem !important;
+    min-width: 100px;
+  }
+}

@@ -1,0 +1,35 @@
+
+.dashboard{
+    min-height: 100vh;
+}
+.general-box{
+    width: 250px;
+    height: 200px;
+    margin: 0 20px;
+    border-radius: 20px;
+    box-shadow: 1.5px 7px 17px rgba(106, 255, 14, 0.762);
+    border-color: var(--primary-color) !important;
+    color: var(--heading-color);
+}
+
+.general-box:hover h3{
+  color: #fff; 
+}
+
+.general-box:hover{
+    background-color: var(--primary-color);
+}
+
+@media screen and (max-width:400px) {
+    .general-box{
+        width: 70%;
+        height: 120px;
+    }
+
+    .general-box h3{
+       font-size: 90%;
+      }
+
+}
+
+

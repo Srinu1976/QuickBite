@@ -1,0 +1,119 @@
+.food-card {
+  transition: transform 0.3s ease;
+  max-width: 100%;
+  width: 100%;
+  min-height: 380px;
+  overflow: hidden;
+}
+
+.card {
+  border: none !important;
+  border-radius: 15px;
+}
+
+.food-card:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 10px 40px 9px !important;
+}
+
+.food-img img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.food-img {
+  position: relative;
+}
+.food-img span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: max-content;
+  height: max-content;
+  z-index: 10;
+  font-size: 1.2rem;
+  background: var(--primary-color);
+  color: var(--tertiary-color);
+  padding: 0.3rem 0.6rem;
+  border-radius: 20px 0 0 0;
+}
+
+.food-img .cart-icon {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: max-content;
+  height: max-content;
+  z-index: 10;
+  font-size: 1.3rem;
+  background: var(--primary-color);
+  color: var(--tertiary-color);
+  padding: 0.3rem 0.6rem;
+  border-radius: 20px;
+  border: none;
+  box-shadow: rgba(17, 12, 46, 0.2) 0px 0px 40px 7px !important;
+}
+
+.food-img .cart-icon:hover {
+  color: var(--heading-color);
+}
+
+.food-img .cart-icon:focus {
+  background-color: #6fff00;
+  color: var(--heading-color);
+}
+
+.food-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.tour-title {
+  font-size: 1.1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tour-title a {
+  text-decoration: none;
+  color: var(--heading-color);
+  transition: 0.3s;
+}
+
+.tour-title a:hover {
+  color: #6fff00 !important;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.card-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2; /* Set the number of lines to display */
+  color: var(--text-color);
+}
+
+.food-rating i {
+  color: #fdcc0d;
+}
+
+.order-btn {
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: var(--primary-color);
+  padding: 5px 20px;
+  color: var(--tertiary-color);
+}
+
+.order-btn:hover,
+.order-btn:focus {
+  background-color: #6fff00 !important;
+  border-color: #6fff00 !important;
+}

@@ -1,0 +1,22 @@
+.order-table tbody tr td{
+    min-width: 100px !important;
+}
+
+.status{
+    width: 150px;
+    padding: 2px;
+}
+
+.preparing{
+    background-color: #ffA500;
+}
+
+.cancelled{
+    background-color: #ffb6c1;
+}
+.delivering{
+    background-color: #ffff99;
+}
+.delivered{
+    background-color: var(--primary-color);
+}

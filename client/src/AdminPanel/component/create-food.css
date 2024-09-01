@@ -1,0 +1,16 @@
+.input-group .input-group-text {
+    background-color: rgb(180, 255, 123);
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+
+.create-food-btn{
+    background-color: var(--primary-color);
+    font-size: 19px;
+}
+
+.create-food-btn:hover,
+.create-food-btn:focus{
+    background-color: #6fff00 !important;
+    color: #fff;
+}
